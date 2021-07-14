@@ -17,6 +17,12 @@ export default class VersionsController extends Controller.extend(WithNamespaceR
 
   @alias('model') job;
 
+  queryParams = [
+    {
+      jobNamespace: { as: 'other-jobNamespace' },
+    },
+  ];
+
   @computed('error.level')
   get errorLevelClass() {
     return errorLevelToAlertClass[this.get('error.level')] || alertClassFallback;

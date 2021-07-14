@@ -15,5 +15,5 @@
     </div>
   {{/if}}
 
-  <JobVersionsStream @versions={{this.model.versions}} @verbose={{true}} @handleError={{action this.handleError}} />
+  <JobVersionsStream @jobNamespace={{this.jobNamespace}} @versions={{this.model.versions}} @verbose={{true}} @handleError={{action this.handleError}} />
 </section>
