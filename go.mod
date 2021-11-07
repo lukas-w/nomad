@@ -102,7 +102,7 @@ require (
 	github.com/prometheus/client_golang v1.4.0
 	github.com/prometheus/common v0.9.1
 	github.com/rs/cors v1.7.0
-	github.com/ryanuber/columnize v2.1.1-0.20170703205827-abc90934186a+incompatible
+	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/ryanuber/go-glob v1.0.0
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529
 	github.com/shirou/gopsutil/v3 v3.21.6-0.20210619153009-7ea8062810b6
